@@ -14,7 +14,7 @@ public class Steps {
     public void open_the_Firefox_and_launch_the_application() throws Throwable{
         //System.out.println("This step open the Firefox and launch the application.");
         System.setProperty("webdriver.gecko.driver",
-                "C:\\Users\\xin.gu\\SpringPractices\\cucumberwithSelenium\\src\\test\\resources\\geckodriver.exe");
+                "C:\\Users\\xin.gu\\SpringPractices\\cucumberwithSelenium\\src\\test\\Drivers\\geckodriver.exe");
         driver=new FirefoxDriver();
         driver.get("https://demo.guru99.com/v1/index.php");
     }
